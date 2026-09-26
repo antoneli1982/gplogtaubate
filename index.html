@@ -43,6 +43,7 @@ button{cursor:pointer}
 .toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}.filters{display:flex;gap:8px;flex-wrap:wrap}.input,.select{height:40px;border:1px solid var(--line);background:white;border-radius:10px;padding:0 12px;color:var(--text);font-size:12px;outline:none;transition:.18s}.input:focus,.select:focus,textarea:focus{border-color:#93c5fd;box-shadow:0 0 0 4px #eff6ff}.search{position:relative}.search svg{position:absolute;left:12px;top:12px;width:15px;height:15px;color:var(--muted)}.search input{padding-left:36px;width:270px}.table-card{overflow:hidden}.table-wrap{overflow:auto}.table{width:100%;border-collapse:collapse;min-width:980px}.table th{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:#64748b;background:#f8fafc;text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);font-weight:800}.table td{padding:13px 14px;border-bottom:1px solid #edf1f5;font-size:11px;vertical-align:middle}.table tr:hover td{background:#fbfdff}.table .action-name{max-width:310px}.table .action-name strong{display:block;font-size:12px;color:#1e293b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.table .action-name small{color:var(--muted)}.badge{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:800;white-space:nowrap}.badge:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.b-open{color:#2563eb;background:#eff6ff}.b-done{color:#15803d;background:#ecfdf3}.b-overdue{color:#b91c1c;background:#fff1f2}.b-soon{color:#b45309;background:#fff7ed}.b-ontime{color:#0f766e;background:#f0fdfa}.b-none{color:#64748b;background:#f1f5f9}.row-actions{display:flex;gap:6px}.mini-btn{border:1px solid var(--line);background:white;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#64748b}.mini-btn:hover{color:#0f172a;background:#f8fafc}.mini-btn svg{width:14px;height:14px}.empty{padding:45px;text-align:center;color:var(--muted)}
 .page-title{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:18px}.page-title h2{font-size:22px;letter-spacing:-.6px;margin:0}.page-title p{font-size:12px;color:var(--muted);margin:5px 0 0}.team-grid{grid-template-columns:repeat(3,1fr)}.person{padding:16px;display:flex;align-items:center;gap:12px}.person .avatar{background:#eff6ff;color:#1d4ed8;width:42px;height:42px;border-radius:12px}.person strong{display:block;font-size:12px}.person small{color:var(--muted);font-size:10px}.person-meta{margin-left:auto;text-align:right}.person-meta b{font-size:12px;display:block}.person-meta span{font-size:9px;color:var(--muted)}
 .integration-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.integration-card{padding:20px;min-height:210px;display:flex;flex-direction:column}.integration-logo{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;margin-bottom:14px}.integration-logo svg{width:23px;height:23px}.integration-card h3{margin:0 0 5px;font-size:15px}.integration-card p{margin:0;color:var(--muted);font-size:11px;line-height:1.55}.integration-card .actions{margin-top:auto;display:flex;gap:8px;padding-top:18px}.code-box{margin-top:14px;background:#0f172a;color:#cbd5e1;border-radius:12px;padding:13px;font:10px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;max-height:150px;overflow:auto;white-space:pre-wrap}.settings-grid{grid-template-columns:1fr 1fr}.setting-card{padding:20px}.setting-card h3{font-size:14px;margin:0 0 4px}.setting-card p{font-size:11px;color:var(--muted);margin:0 0 18px}.field{display:grid;gap:6px;margin-bottom:13px}.field label{font-size:10px;font-weight:800;color:#475569}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:10px;background:white;padding:10px 11px;font-size:12px;outline:none}.field textarea{min-height:92px;resize:vertical}
+.catalog-add{display:flex;gap:8px;margin-bottom:14px;align-items:center}.catalog-add .input{flex:1;min-width:0;height:40px}.catalog-add .btn{flex-shrink:0;height:40px}.catalog-list{display:grid;gap:8px;max-height:280px;overflow:auto;padding-right:2px}.catalog-item{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);transition:.15s}.catalog-item:hover{border-color:var(--primary);background:var(--surface)}.catalog-item strong{font-size:12px;font-weight:700;color:var(--text);word-break:break-word}.catalog-item .row-actions{display:flex;gap:6px;flex-shrink:0}.catalog-empty{padding:18px 12px;text-align:center;font-size:11px;color:var(--muted);border:1px dashed var(--line);border-radius:10px}.catalog-count{font-size:10px;color:var(--muted);margin-bottom:10px;font-weight:700}
 .modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.52);backdrop-filter:blur(4px);z-index:90;display:none;align-items:center;justify-content:center;padding:20px}.modal-backdrop.show{display:flex}.modal{width:min(720px,100%);background:white;border-radius:20px;box-shadow:var(--shadow-lg);overflow:hidden;animation:pop .18s ease-out}@keyframes pop{from{transform:scale(.97);opacity:.5}to{transform:scale(1);opacity:1}}.modal-head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.modal-head h3{margin:0;font-size:15px}.modal-head p{margin:3px 0 0;color:var(--muted);font-size:10px}.modal-body{padding:20px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.full{grid-column:1/-1}.modal-foot{padding:14px 20px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:8px;background:#fbfdff}.toast-stack{position:fixed;right:20px;bottom:20px;z-index:120;display:grid;gap:8px}.toast{background:#0f172a;color:white;border-radius:12px;padding:12px 14px;box-shadow:var(--shadow-lg);min-width:270px;font-size:11px;display:flex;gap:10px;align-items:center;animation:slide .2s ease-out}.toast.success svg{color:#4ade80}.toast.warn svg{color:#fbbf24}@keyframes slide{from{transform:translateY(8px);opacity:0}to{transform:none;opacity:1}}
 .kpi-banner{background:linear-gradient(135deg,#0f172a,#172554 60%,#0f766e);color:white;border-radius:20px;padding:24px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:center;overflow:hidden;position:relative}.kpi-banner:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;background:rgba(255,255,255,.06);right:-70px;top:-140px}.kpi-banner h2{margin:0 0 6px;font-size:22px;letter-spacing:-.6px}.kpi-banner p{margin:0;color:#cbd5e1;font-size:11px;max-width:560px;line-height:1.55}.banner-metric{position:relative;z-index:2;text-align:right}.banner-metric b{display:block;font-size:34px;letter-spacing:-1px}.banner-metric span{font-size:10px;color:#cbd5e1}
 @media(max-width:1180px){.stats{grid-template-columns:repeat(3,1fr)}.section-row{grid-template-columns:1fr}.team-grid{grid-template-columns:repeat(2,1fr)}}
@@ -214,10 +215,6 @@ html[data-theme="light"] .topbar{background:rgba(244,247,251,.88)}
     </header>
 
     <section class="page active" id="page-dashboard">
-      <div class="kpi-banner">
-        <div><h2>Plano sob controle, sem caça ao Excel.</h2><p>Centralize responsáveis, prazos, criticidade e conclusão em um único painel. Importe sua base Excel, acompanhe os indicadores e faça as análises diretamente no sistema.</p></div>
-        <div class="banner-metric"><b id="bannerRate">0%</b><span>taxa de conclusão</span></div>
-      </div>
       <div class="grid stats" id="statsGrid"></div>
       <div class="section-row">
         <div class="card panel">
@@ -295,8 +292,26 @@ html[data-theme="light"] .topbar{background:rgba(244,247,251,.88)}
       <div class="page-title"><div><h2>Configurações</h2><p>Personalize o workspace e os cadastros principais.</p></div></div>
       <div class="grid settings-grid">
         <div class="card setting-card"><h3>Workspace</h3><p>Identificação exibida no sistema.</p><div class="field"><label>Nome da empresa</label><input id="companyName" value="GPLOG"></div><div class="field"><label>Nome do workspace</label><input id="workspaceName" value="Plano de Ação Corporativo"></div><button class="btn primary" onclick="saveSettings()">Salvar alterações</button></div>
-        <div class="card setting-card"><h3>Setores</h3><p>Separe por linha. Eles alimentam filtros e cadastro de ações.</p><div class="field"><textarea id="sectorsText"></textarea></div><button class="btn" onclick="saveCatalogs()">Atualizar setores</button></div>
-        <div class="card setting-card"><h3>Responsáveis</h3><p>Separe por linha para manter os cadastros consistentes.</p><div class="field"><textarea id="ownersText"></textarea></div><button class="btn" onclick="saveCatalogs()">Atualizar responsáveis</button></div>
+        <div class="card setting-card">
+          <h3>Setores</h3>
+          <p>Cadastre, edite ou remova os setores utilizados em filtros e no plano de ação.</p>
+          <div class="catalog-add">
+            <input class="input" id="newSectorInput" placeholder="Nome do novo setor" maxlength="80" onkeydown="if(event.key==='Enter'){event.preventDefault();addSector()}">
+            <button type="button" class="btn primary" onclick="addSector()">Adicionar</button>
+          </div>
+          <div class="catalog-count" id="sectorsCount"></div>
+          <div class="catalog-list" id="sectorsList"></div>
+        </div>
+        <div class="card setting-card">
+          <h3>Responsáveis</h3>
+          <p>Gerencie a lista de responsáveis disponíveis para atribuição de ações.</p>
+          <div class="catalog-add">
+            <input class="input" id="newOwnerInput" placeholder="Nome do novo responsável" maxlength="80" onkeydown="if(event.key==='Enter'){event.preventDefault();addOwner()}">
+            <button type="button" class="btn primary" onclick="addOwner()">Adicionar</button>
+          </div>
+          <div class="catalog-count" id="ownersCount"></div>
+          <div class="catalog-list" id="ownersList"></div>
+        </div>
         <div class="card setting-card"><h3>Dados locais</h3><p>Todo o conteúdo fica salvo no localStorage deste navegador.</p><button class="btn danger" onclick="resetDemo()">Restaurar dados de demonstração</button></div>
       </div>
     </section>
@@ -381,7 +396,7 @@ function navTo(page){document.querySelectorAll('.page').forEach(x=>x.classList.r
 document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>navTo(b.dataset.page)));
 function renderAll(){hydrateCatalogs();hydrateBiFilters();renderDashboard();renderActions();renderAnalytics();renderTeam();renderDataPage();renderSettings();document.getElementById('sideCompany').textContent=state.settings.company||'Empresa'}
 function getMetrics(data=state.actions){const total=data.length,closed=data.filter(a=>a.status==='Fechado').length,open=total-closed,overdue=data.filter(a=>criticality(a)==='Vencida').length,soon=data.filter(a=>criticality(a)==='Próximo do prazo').length,rate=total?Math.round(closed/total*100):0;return{total,closed,open,overdue,soon,rate}}
-function renderDashboard(){const m=getMetrics();document.getElementById('bannerRate').textContent=m.rate+'%';const items=[['Total de ações',m.total,'base cadastrada','i-blue','M4 5h16M4 12h10M4 19h7'],['Em aberto',m.open,'em execução','i-purple','M12 8v4l3 2'],['Vencidas',m.overdue,'exigem atenção','i-red','M12 8v5m0 4h.01'],['Próx. do prazo',m.soon,'até 3 dias','i-amber','M12 6v6l4 2'],['Concluídas',m.closed,m.rate+'% do total','i-green','M5 12l4 4L19 6']];document.getElementById('statsGrid').innerHTML=items.map(([l,v,f,cls,path])=>`<div class="card stat"><div class="stat-head"><span class="stat-label">${l}</span><span class="stat-icon ${cls}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="${path}"/><circle cx="12" cy="12" r="9" opacity=".35"/></svg></span></div><div class="stat-value">${v}</div><div class="stat-foot">${f}</div></div>`).join('');renderSectorBars();renderStatusDonut();renderDeadlines();renderOwnerBars()}
+function renderDashboard(){const m=getMetrics();const br=document.getElementById('bannerRate');if(br)br.textContent=m.rate+'%';const items=[['Total de ações',m.total,'base cadastrada','i-blue','M4 5h16M4 12h10M4 19h7'],['Em aberto',m.open,'em execução','i-purple','M12 8v4l3 2'],['Vencidas',m.overdue,'exigem atenção','i-red','M12 8v5m0 4h.01'],['Próx. do prazo',m.soon,'até 3 dias','i-amber','M12 6v6l4 2'],['Concluídas',m.closed,m.rate+'% do total','i-green','M5 12l4 4L19 6']];document.getElementById('statsGrid').innerHTML=items.map(([l,v,f,cls,path])=>`<div class="card stat"><div class="stat-head"><span class="stat-label">${l}</span><span class="stat-icon ${cls}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="${path}"/><circle cx="12" cy="12" r="9" opacity=".35"/></svg></span></div><div class="stat-value">${v}</div><div class="stat-foot">${f}</div></div>`).join('');renderSectorBars();renderStatusDonut();renderDeadlines();renderOwnerBars()}
 function countsBy(field,filterFn=()=>true,data=state.actions){const map={};data.filter(filterFn).forEach(a=>map[a[field]]=(map[a[field]]||0)+1);return Object.entries(map).sort((a,b)=>b[1]-a[1])}
 function setSectorMode(mode,btn){sectorMode=mode;document.querySelectorAll('#sectorSegment button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderSectorBars()}
 function renderSectorBars(){const arr=countsBy('sector',a=>sectorMode==='total'||a.status==='Em Aberto'),max=Math.max(1,...arr.map(x=>x[1]));document.getElementById('sectorBars').innerHTML=arr.length?arr.map(([k,v])=>`<div class="bar-row"><div class="bar-label">${esc(k)}</div><div class="bar-track"><div class="bar-fill" style="width:${v/max*100}%"></div></div><div class="bar-value">${v}</div></div>`).join(''):'<div class="empty">Sem dados.</div>'}
@@ -402,7 +417,78 @@ function renderAnalysisTable(id,rows){document.getElementById(id).innerHTML=rows
 function clearBiFilters(){document.getElementById('biSector').value='';document.getElementById('biOwner').value='';renderAnalytics()}
 function dataQuality(){const seen=new Set(),dups=new Set();state.actions.forEach(a=>{if(seen.has(a.id))dups.add(a.id);seen.add(a.id)});return{duplicates:dups.size,missingDeadline:state.actions.filter(a=>a.status!=='Fechado'&&!a.deadline).length,missingOwner:state.actions.filter(a=>!a.owner||a.owner==='Não definido').length,closedNoDate:state.actions.filter(a=>a.status==='Fechado'&&!a.conclusion).length}}
 function renderDataPage(){const m=state.meta||{};document.getElementById('lastImportFile').textContent=m.lastImportFile||'Nenhum';document.getElementById('lastImportAt').textContent=m.lastImportAt||'—';document.getElementById('lastImportCount').textContent=m.lastImportCount||0;document.getElementById('dataBaseCount').textContent=state.actions.length+' ações';const q=dataQuality(),items=[['IDs duplicados',q.duplicates,'devem ser únicos'],['Sem prazo',q.missingDeadline,'ações abertas'],['Sem responsável',q.missingOwner,'cadastros incompletos'],['Fechadas sem data',q.closedNoDate,'revisar conclusão']];document.getElementById('qualityGrid').innerHTML=items.map(([l,v,f])=>`<div class="card quality"><strong>${v}</strong><span>${l} • ${f}</span></div>`).join('')}
-function renderSettings(){document.getElementById('companyName').value=state.settings.company||'';document.getElementById('workspaceName').value=state.settings.workspace||'';document.getElementById('sectorsText').value=state.sectors.join('\n');document.getElementById('ownersText').value=state.owners.join('\n')}
+function renderSettings(){
+  document.getElementById('companyName').value=state.settings.company||'';
+  document.getElementById('workspaceName').value=state.settings.workspace||'';
+  renderCatalogList('sectors',state.sectors);
+  renderCatalogList('owners',state.owners);
+}
+function catalogItemHtml(type,name){
+  const encoded=encodeURIComponent(name);
+  return `<div class="catalog-item"><strong>${esc(name)}</strong><div class="row-actions">
+    <button type="button" class="mini-btn" title="Editar" onclick="editCatalogItem('${type}',decodeURIComponent('${encoded}'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4z"/></svg></button>
+    <button type="button" class="mini-btn" title="Excluir" onclick="deleteCatalogItem('${type}',decodeURIComponent('${encoded}'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v5M14 11v5"/></svg></button>
+  </div></div>`;
+}
+function renderCatalogList(type,items){
+  const listId=type==='sectors'?'sectorsList':'ownersList';
+  const countId=type==='sectors'?'sectorsCount':'ownersCount';
+  const list=document.getElementById(listId);
+  const count=document.getElementById(countId);
+  if(!list||!count)return;
+  const arr=[...items].sort((a,b)=>a.localeCompare(b,'pt-BR',{sensitivity:'base'}));
+  const plural=type==='sectors'?'setores':'responsáveis';
+  const singular=type==='sectors'?'setor':'responsável';
+  count.textContent=arr.length?`${arr.length} ${arr.length===1?singular:plural} cadastrado${arr.length===1?'':'s'}`:`Nenhum ${singular} cadastrado`;
+  list.innerHTML=arr.length?arr.map(n=>catalogItemHtml(type,n)).join(''):`<div class="catalog-empty">Nenhum ${singular} cadastrado. Utilize o campo acima para adicionar.</div>`;
+}
+function addSector(){
+  const input=document.getElementById('newSectorInput');
+  if(!input)return;
+  const name=input.value.trim();
+  if(!name){toast('Informe o nome do setor.','warn');input.focus();return}
+  if(state.sectors.some(s=>s.toLowerCase()===name.toLowerCase())){toast('Este setor já está cadastrado.','warn');return}
+  state.sectors.push(name);
+  persist();input.value='';renderAll();toast('Setor adicionado com sucesso.');input.focus();
+}
+function addOwner(){
+  const input=document.getElementById('newOwnerInput');
+  if(!input)return;
+  const name=input.value.trim();
+  if(!name){toast('Informe o nome do responsável.','warn');input.focus();return}
+  if(state.owners.some(s=>s.toLowerCase()===name.toLowerCase())){toast('Este responsável já está cadastrado.','warn');return}
+  state.owners.push(name);
+  persist();input.value='';renderAll();toast('Responsável adicionado com sucesso.');input.focus();
+}
+function editCatalogItem(type,oldName){
+  const isSector=type==='sectors';
+  const list=isSector?state.sectors:state.owners;
+  const label=isSector?'setor':'responsável';
+  const field=isSector?'sector':'owner';
+  const idx=list.findIndex(x=>x===oldName);
+  if(idx<0)return;
+  const next=prompt(`Editar ${label}:`,oldName);
+  if(next===null)return;
+  const name=String(next).trim();
+  if(!name){toast(`O nome do ${label} não pode ficar em branco.`,'warn');return}
+  if(list.some((s,i)=>i!==idx&&s.toLowerCase()===name.toLowerCase())){toast(`Já existe um ${label} com este nome.`,'warn');return}
+  list[idx]=name;
+  state.actions.forEach(a=>{if(a[field]===oldName)a[field]=name});
+  persist();renderAll();toast(`${label.charAt(0).toUpperCase()+label.slice(1)} atualizado com sucesso.`);
+}
+function deleteCatalogItem(type,name){
+  const isSector=type==='sectors';
+  const label=isSector?'setor':'responsável';
+  const field=isSector?'sector':'owner';
+  const used=state.actions.filter(a=>a[field]===name).length;
+  const msg=used
+    ?`O ${label} "${name}" está vinculado a ${used} ação(ões). A exclusão remove apenas do cadastro; as ações existentes mantêm o valor atual.\n\nDeseja continuar?`
+    :`Excluir o ${label} "${name}"? Esta operação não pode ser desfeita.`;
+  if(!confirm(msg))return;
+  if(isSector)state.sectors=state.sectors.filter(s=>s!==name);
+  else state.owners=state.owners.filter(s=>s!==name);
+  persist();renderAll();toast(`${label.charAt(0).toUpperCase()+label.slice(1)} excluído.`,'warn');
+}
 function openActionModal(){document.getElementById('modalTitle').textContent='Nova ação';document.getElementById('actionForm').reset();document.getElementById('editId').value='';document.getElementById('fOpened').value=todayISO();document.getElementById('fStatus').value='Em Aberto';document.getElementById('fConclusion').disabled=true;document.getElementById('actionModal').classList.add('show')}
 function closeActionModal(){document.getElementById('actionModal').classList.remove('show')}
 function toggleConclusion(){const closed=document.getElementById('fStatus').value==='Fechado';document.getElementById('fConclusion').disabled=!closed;if(closed&&!document.getElementById('fConclusion').value)document.getElementById('fConclusion').value=todayISO();if(!closed)document.getElementById('fConclusion').value=''}
@@ -411,7 +497,7 @@ function saveAction(e){e.preventDefault();const id=document.getElementById('edit
 function editAction(id){const a=state.actions.find(x=>x.id===id);if(!a)return;openActionModal();document.getElementById('modalTitle').textContent='Editar ação';document.getElementById('editId').value=a.id;document.getElementById('fAction').value=a.action;document.getElementById('fSector').value=a.sector;document.getElementById('fOwner').value=a.owner;document.getElementById('fDeadline').value=a.deadline;document.getElementById('fStatus').value=a.status;document.getElementById('fOpened').value=a.opened;document.getElementById('fConclusion').value=a.conclusion||'';toggleConclusion()}
 function deleteAction(id){if(!confirm('Excluir esta ação? Esta operação não pode ser desfeita.'))return;state.actions=state.actions.filter(a=>a.id!==id);persist();renderAll();toast('Ação excluída.','warn')}
 function saveSettings(){state.settings.company=document.getElementById('companyName').value.trim()||'Empresa';state.settings.workspace=document.getElementById('workspaceName').value.trim()||'Plano de Ação';persist();renderAll();toast('Configurações salvas.')}
-function saveCatalogs(){const sectors=document.getElementById('sectorsText').value.split('\n').map(x=>x.trim()).filter(Boolean),owners=document.getElementById('ownersText').value.split('\n').map(x=>x.trim()).filter(Boolean);if(sectors.length)state.sectors=[...new Set(sectors)];if(owners.length)state.owners=[...new Set(owners)];persist();renderAll();toast('Cadastros atualizados.')}
+
 function csvEscape(v){v=String(v??'');return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v}
 function parseCSV(text){const rows=[];let row=[],cell='',q=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'){if(q&&n==='"'){cell+='"';i++}else q=!q}else if((c===','||c===';')&&!q){row.push(cell);cell=''}else if((c==='\n'||c==='\r')&&!q){if(c==='\r'&&n==='\n')i++;row.push(cell);if(row.some(x=>x!==''))rows.push(row);row=[];cell=''}else cell+=c}row.push(cell);if(row.some(x=>x!==''))rows.push(row);return rows}
 function mapImportedRow(raw,nextNum){const keymap={};Object.entries(raw).forEach(([k,v])=>keymap[normalizeKey(k)]=v);const pick=(...keys)=>{for(const k of keys){const nk=normalizeKey(k);if(nk in keymap)return keymap[nk]}return ''};const id=String(pick('ID_Acao','ID','Codigo','Código')).trim()||'PA-'+String(nextNum).padStart(4,'0');const action=String(pick('Acao','Ação','Descricao','Descrição','Plano de ação','Plano de Acao')).trim();const sector=String(pick('Setor','Area','Área')).trim()||'Operação';const owner=String(pick('Responsavel','Responsável','Owner')).trim()||'Não definido';const deadline=normalizeDateAny(pick('Prazo','Data_Prazo','Deadline'));const status=normalizeStatus(pick('Status','Situacao','Situação'));const conclusion=normalizeDateAny(pick('Data_Conclusao','Data Conclusao','Conclusao','Conclusão'));const opened=normalizeDateAny(pick('Data_Abertura','Data Abertura','Abertura'))||todayISO();return{id,action,sector,owner,deadline,status,conclusion:status==='Fechado'?conclusion:'',opened}}
